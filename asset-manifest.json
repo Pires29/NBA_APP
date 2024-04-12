@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NBA_APP/static/css/main.277512f6.css",
+    "main.js": "/NBA_APP/static/js/main.eaa92b2d.js",
+    "static/js/787.44afae4f.chunk.js": "/NBA_APP/static/js/787.44afae4f.chunk.js",
+    "static/media/homepage.jpg": "/NBA_APP/static/media/homepage.4d60270321e28feec2f2.jpg",
+    "index.html": "/NBA_APP/index.html",
+    "main.277512f6.css.map": "/NBA_APP/static/css/main.277512f6.css.map",
+    "main.eaa92b2d.js.map": "/NBA_APP/static/js/main.eaa92b2d.js.map",
+    "787.44afae4f.chunk.js.map": "/NBA_APP/static/js/787.44afae4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.277512f6.css",
+    "static/js/main.eaa92b2d.js"
+  ]
+}
