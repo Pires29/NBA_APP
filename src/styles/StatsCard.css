@@ -1,0 +1,26 @@
+.points-container{
+    color: white;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.points-container h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.points-container p{
+    font-weight: 300;
+
+    margin: 0;
+    margin-right: 5px;
+}
+
+.points-row{
+    display: flex;
+}
+
+.text-stat-container{
+    text-align: left;
+}

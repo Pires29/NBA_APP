@@ -1,0 +1,104 @@
+/* Navbar.css */
+
+.navbar {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.nav_links {
+  display: flex;
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  border-radius: 20px;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: black;
+  padding: 25px 35px;
+}
+
+.nav_links a:hover,
+.nav_links a.active {
+  background-color: #FC7417;
+  color: white;
+}
+
+.first-link:hover {
+  background-color: #FC7417;
+  color: white;
+  border-radius: 20px 0 0 20px;
+}
+
+.last-link:hover {
+  background-color: #FC7417;
+  color: white;
+  border-radius: 0 20px 20px 0;
+}
+
+.first-link.active {
+  background-color: #FC7417;
+  color: white;
+  border-radius: 20px 0 0 20px;
+}
+
+.last-link.active {
+  background-color: #FC7417;
+  color: white;
+  border-radius: 0 20px 20px 0;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  padding: 25px 35px;
+}
+
+.dropdown-container:hover,
+.dropdown-container.active {
+  background-color: #FC7417;
+  color: white;
+}
+
+
+.dropdown-trigger {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #333; /* Cor de fundo do dropdown */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #FC7417; /* Cor de fundo ao passar o mouse sobre as opções do dropdown */
+}
+
+/* Exibe o dropdown quando está aberto */
+.dropdown-container:hover .dropdown-content {
+  display: block;
+}

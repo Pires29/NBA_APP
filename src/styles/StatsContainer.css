@@ -1,0 +1,24 @@
+.card-player{
+    position: relative;
+    width: 250px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 2rem 5rem;
+    margin: 0 2rem;
+}
+
+.stats-card-player-container {
+    display: flex;
+    justify-content: center; /* Espaçamento uniforme entre os cartões */
+    margin-top: 20px; /* Adiciona um espaçamento superior */
+  }
+
+  .button-delete{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .card-player h3{
+    font-size: 2rem;
+  }

@@ -1,0 +1,32 @@
+.standings-row p{
+    margin-right: 5px;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+thead tr{
+    color: white;
+}
+
+tbody td{
+    color: white;
+}
+
+.standings-table td {
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    height: 30px; /* Defina uma altura para as células */
+}
+  
+  .standings-table tr.standings-row {
+    border-bottom: 2px solid white;
+}
+
+.tabela-container h2{
+    color: white;
+    font-size: 2rem;
+}
+  

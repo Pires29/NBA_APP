@@ -1,0 +1,117 @@
+body{
+    background-color: #0D0D0D;
+}
+
+.main-container{
+    margin-top: 10rem;
+}
+
+.page-container{
+    margin: 0 15rem;
+}
+
+.roster-card-container{
+    display: flex;
+}
+
+.season-container{
+    text-align: center;
+    color: #FC7417;
+    font-size: 3rem;
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    width: 200px;
+  }
+  
+  .custom-select select {
+    appearance: none;
+    display: none; /* Oculta o elemento SELECT original */
+  }
+  
+  .custom-label {
+    background-color: transparent;
+    color: orange;
+    position: relative;
+    /* Adicione mais estilos conforme necessário */
+  }
+  
+  .custom-label:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+    transform: translateY(-50%);
+  }
+  
+  /* Adicione mais estilos conforme necessário */
+  
+  .custom-select p {
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    color: orange;
+  }
+.season-container p{
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.page-container{
+    text-align: left;
+}
+
+.page-container h3{
+    color: white;
+    font-size: 2rem;
+}
+
+.roster-container h3{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.roster-container {
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza horizontalmente */
+  }
+  
+  .roster-card-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2.5rem; /* ou ajuste conforme necessário para adicionar espaço entre os cartões */
+    margin-top: 20px; /* ou ajuste conforme necessário para adicionar espaço acima da grid */
+  }
+
+  @media (max-width: 1800px) {
+    .roster-card-container {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  
+  @media (max-width: 1400px) {
+    .roster-card-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 800px) {
+    .roster-card-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 600px) {
+    .roster-card-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

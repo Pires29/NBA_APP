@@ -1,0 +1,67 @@
+.team-card{
+    color: white;
+    border: 2px solid #4D4D4D;
+}
+
+.team-card img{
+    width: 80px;
+    height: 80px;
+}
+
+.team-name-container{
+    background-color: #4D4D4D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.team-logo-container{
+    padding: 1rem;
+}
+
+.team-card p{
+    margin: 0;
+    padding: 0;
+}
+  
+  .roster-team-card-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr); /* 10 cards por linha */
+    grid-gap: 16px; /* Espaçamento entre os cards */
+  }
+
+  @media (max-width: 2100px) {
+    .roster-team-card-container {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+
+  @media (max-width: 1800px) {
+    .roster-team-card-container {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .roster-team-card-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .roster-team-card-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .team-card {
+    /* Estilo para cada card */
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

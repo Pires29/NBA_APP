@@ -1,0 +1,11 @@
+.main-container{
+    margin-top: 10rem;
+}
+
+
+.stats-container {
+    display: grid;
+    margin: 0 15rem;
+    grid-template-columns: repeat(5, 1fr); /* Cria 4 colunas com largura igual */
+    gap: 20px; /* Espaçamento entre os StatsCard */
+  }

@@ -1,0 +1,48 @@
+.search-bar-container{
+    text-align: center;
+}
+
+.search-local{
+    text-align: center;
+}
+
+.search-local input{
+    padding-left: 2rem;
+    border-radius: 1rem 0 0 0;
+    border: none;
+    width: 800px;
+    height: 80px;
+    font-size: 1rem;
+}
+
+.search-local button{
+    background-color: #FC7417;
+    color: white;
+    border-radius: 0 1rem 0 0;
+    border: none;
+    cursor: pointer;
+    height: 80px;
+    width: 200px;
+    font-size: 1rem;
+}
+
+/*----- Suggestions -----*/
+
+.suggestion-list{
+    margin: auto;
+    list-style-type: none;
+    font-size: 1.5rem;
+    background-color: grey;
+    margin-top: 0;
+    width: 1050px;
+    padding: 0;
+}
+
+.suggestion-list-row{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.suggestion-list-row:hover{
+    background-color: #FC7417;
+}
